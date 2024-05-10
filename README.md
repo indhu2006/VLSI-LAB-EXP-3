@@ -130,10 +130,16 @@ fa fa8(w[11],x[3]&y[3],w[17],z[6],z[7]);
 endmodule
 
 
-**Output Waveform*>>
+**Output Waveform**
+
+2 bit Multiplier
+![image](https://github.com/indhu2006/VLSI-LAB-EXP-3/assets/164912740/b56a37f4-4cdc-4b16-8749-197f6a07d614)
+
+4 Bit Multiplier
+![image](https://github.com/indhu2006/VLSI-LAB-EXP-3/assets/164912740/ef0bb037-2ee3-4b77-b97a-7b5059b52bf9)
 
 
 **Result**
-
+Thus the simulatation and synthesis of multiplier using vivado 2023.2 was successfully executed and verified.
 
 
