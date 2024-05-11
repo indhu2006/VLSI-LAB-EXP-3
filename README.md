@@ -1,7 +1,9 @@
 SIMULATION AND IMPLEMENTATION OF MULTIPLIER
+
 **AIM: **
 
  To simulate and synthesis multiplier using vivado 2023.2
+ 
 **APPARATUS REQUIRED:**
 
 vivado 2023.2 Spartan7 FPGA
