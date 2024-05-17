@@ -1,14 +1,14 @@
 SIMULATION AND IMPLEMENTATION OF MULTIPLIER
 
-**AIM: **
+## AIM: 
 
  To simulate and synthesis multiplier using vivado 2023.2
  
-**APPARATUS REQUIRED:**
+## APPARATUS REQUIRED
 
 vivado 2023.2 Spartan7 FPGA
   
-**PROCEDURE:**
+## PROCEDURE:
 
 STEP:1 Start the vivado software, Select and Name the New project.
 
@@ -29,15 +29,7 @@ STEP:7 compare the output with truth table.
 2 bit Multiplier
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
-
-**4 Bit Multiplier**
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
-
-
-**Verilog code**
-2 bit Multiplier
-
+## VERILOG CODE
 module ha(a,b,sum,c);
 
 input a,b;
@@ -64,8 +56,15 @@ ha ha1(a[0]&b[1],a[1]&b[0],c[1],w1);
 
 ha ha2(a[1] &b[1],w1,c[2],c[3]);
 
-endmodule 4 Bit Multiplier
+endmodule
+## OUTPUT
+![image](https://github.com/indhu2006/VLSI-LAB-EXP-3/assets/164912740/bb1ab1c1-cc3a-4cfc-87b2-8f3de73de1a2)
 
+
+**4 Bit Multiplier**
+
+![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
+## VERILOG CODE
 module ha(a,b,c,s);
 
 input a,b;
@@ -133,18 +132,10 @@ fa fa7(w[14],x[2]&y[3],w[16],z[5],w[17]);
 fa fa8(w[11],x[3]&y[3],w[17],z[6],z[7]);
 
 endmodule
+## OUTPUT
+![image](https://github.com/indhu2006/VLSI-LAB-EXP-3/assets/164912740/5d6a6cbd-f885-4351-b7e7-d1ca7f13295f)
 
-
-**Output Waveform**
-
-2 bit Multiplier
-![image](https://github.com/indhu2006/VLSI-LAB-EXP-3/assets/164912740/b56a37f4-4cdc-4b16-8749-197f6a07d614)
-
-4 Bit Multiplier
-![image](https://github.com/indhu2006/VLSI-LAB-EXP-3/assets/164912740/ef0bb037-2ee3-4b77-b97a-7b5059b52bf9)
-
-
-**Result**
+## Result
 Thus the simulatation and synthesis of multiplier using vivado 2023.2 was successfully executed and verified.
 
 
